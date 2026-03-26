@@ -1,0 +1,34 @@
+# -------------------------------
+# Core FastAPI framework
+# -------------------------------
+fastapi==0.107.0           # Web framework for building APIs
+
+# -------------------------------
+# ASGI server for FastAPI
+# -------------------------------
+uvicorn[standard]==0.23.1  # High-performance server with optional extras for HTTP/2, websockets
+
+# -------------------------------
+# Database & ORM
+# -------------------------------
+SQLAlchemy==2.0.20         # ORM for interacting with databases
+
+# -------------------------------
+# Data validation
+# -------------------------------
+pydantic==2.12.5            # Data validation and settings management
+
+# -------------------------------
+# Templating engine
+# -------------------------------
+Jinja2==3.1.6              # Templating for HTML responses
+
+# -------------------------------
+# Testing
+# -------------------------------
+pytest==9.0.2               # Testing framework
+
+# -------------------------------
+# Geocoding
+# -------------------------------
+geopy==2.4.1	
