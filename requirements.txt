@@ -1,70 +1,9 @@
-<<<<<<< HEAD
-# -------------------------------
-# Core FastAPI framework
-# -------------------------------
 fastapi==0.107.0           # Web framework for building APIs
-
-# -------------------------------
-# ASGI server for FastAPI
-# -------------------------------
-uvicorn[standard]==0.23.1  # High-performance server with optional extras for HTTP/2, websockets
-
-# -------------------------------
-# Database & ORM
-# -------------------------------
-SQLAlchemy==2.0.48         # ORM for interacting with databases
-
-# -------------------------------
-# Data validation
-# -------------------------------
-pydantic==2.12.5            # Data validation and settings management
-
-# -------------------------------
-# Templating engine
-# -------------------------------
-Jinja2==3.1.6              # Templating for HTML responses
-
-# -------------------------------
-# Testing
-# -------------------------------
+uvicorn[standard]==0.23.1
+SQLAlchemy==2.0.48     
+pydantic==2.12.5            
+Jinja2==3.1.6              
 pytest==9.0.2               # Testing framework
-
-# -------------------------------
-# Geocoding
-# -------------------------------
-=======
-# -------------------------------
-# Core FastAPI framework
-# -------------------------------
-fastapi==0.107.0           # Web framework for building APIs
-
-# -------------------------------
-# ASGI server for FastAPI
-# -------------------------------
-uvicorn[standard]==0.23.1  # High-performance server with optional extras for HTTP/2, websockets
-
-# -------------------------------
-# Database & ORM
-# -------------------------------
-SQLAlchemy==2.0.48        # ORM for interacting with databases
-
-# -------------------------------
-# Data validation
-# -------------------------------
-pydantic==2.12.5            # Data validation and settings management
-
-# -------------------------------
-# Templating engine
-# -------------------------------
-Jinja2==3.1.6              # Templating for HTML responses
-
-# -------------------------------
-# Testing
-# -------------------------------
-pytest==9.0.2               # Testing framework
-
-# -------------------------------
-# Geocoding
-# -------------------------------
->>>>>>> f0b96530d6b494f0642021544dc02d5c5e135fca
+      # ORM for interacting with databases
+          # Templating for HTML responses
 geopy==2.4.1	
