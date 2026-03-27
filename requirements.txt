@@ -11,7 +11,7 @@ uvicorn[standard]==0.23.1  # High-performance server with optional extras for HT
 # -------------------------------
 # Database & ORM
 # -------------------------------
-SQLAlchemy==1.4.54         # ORM for interacting with databases
+SQLAlchemy==2.0.48         # ORM for interacting with databases
 
 # -------------------------------
 # Data validation

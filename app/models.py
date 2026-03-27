@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring, missing-class-docstring, missing-function-docstring
 from sqlalchemy import Column, Integer, String, Float
 from .database import Base
 
