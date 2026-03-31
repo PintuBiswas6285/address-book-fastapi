@@ -34,6 +34,13 @@ docker run -p 8000:8000 address-api
 
 ## Features
 
+## Design Decisions
+
+- Used geopy for geodesic calculations instead of manual Haversine, as it is Python's
+  well matured library.
+- Improves accuracy and maintainability
+- Follows industry best practice: prefer tested libraries over custom implementations
+
 1. Initial project structure
 2. Database setup & accessing through ORM
 3. Models added

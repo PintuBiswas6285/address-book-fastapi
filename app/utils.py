@@ -1,4 +1,3 @@
-# pylint: disable=missing-module-docstring, missing-class-docstring, missing-function-docstring
 from geopy.distance import geodesic
 
 # Calculate distance using geopy (accurate earth model)
